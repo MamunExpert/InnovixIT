@@ -1,0 +1,405 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&family=Russo+One&display=swap');
+
+    /* font-family: 'Russo One', sans-serif; */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.navbar-brand img{
+    width: 80%;
+    cursor: pointer;
+}
+
+.btn-clr{
+    color: rgb(254, 78, 16);
+    outline: 2px solid rgb(254, 78, 16);
+}
+
+.btn-clr:hover{
+    background-color: rgb(254, 78, 16);
+    color: white;
+    outline: 2px solid rgb(13, 110, 253);
+}
+
+.src-input{
+    border: 1px solid rgb(254, 78, 16);
+}
+
+.nav_containr{
+    margin-left: 8%;
+}
+
+.link_contnr{
+    margin-left: 12%; 
+}
+
+.link_contnr ul li{
+    margin-right: 20px; 
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.link_contnr ul li:nth-child(6){
+    margin-right: 140px; 
+}
+
+.link_contnr ul li:nth-child(7){
+    background-color:  rgb(254, 78, 16);
+}
+
+.link_contnr ul li:nth-child(7):hover{
+    background-color:  red;
+    transition: .5s;
+}
+
+.highlt{
+    font-size: 20px;
+    background-color:rgb(254, 78, 16);
+}
+
+/* .menu-nav a:hover{
+    background-color:rgb(254, 78, 16);
+    border-radius: 8px;
+    transition: .4s;
+} */
+
+
+
+        /* section default */
+
+.txt-brand{
+    color: rgb(254, 78, 16);
+}
+
+.bg-brand{
+    background-color: rgb(254, 78, 16);
+}
+
+.border-brand{
+    border: 1px solid rgb(254, 78, 16);
+}
+
+.section_head{
+    letter-spacing: 2px;
+    font-size: 60px;
+    border-bottom: 2px solid rgb(254, 78, 16);
+    margin-bottom: 20px;
+    border-radius: 20px;
+}
+
+.txt-justify{
+    text-align: justify;
+}
+
+.txt-decoration{
+    text-decoration: none;
+}
+
+
+        /* about */
+
+.about-us, .our_services{
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 150px;
+}
+
+.about_img{
+    width: 35%;
+    margin: 0 20px;
+}
+
+        /* services */
+.col-sm-3, .blog_col{
+    display: flex;
+    justify-content: center;
+}
+
+.card-title:hover{
+    cursor: pointer;
+    color: rgb(254, 78, 16);
+    transition: .3s;
+}
+
+.card-row{
+    margin: 40px 0px;
+}
+
+.hover_zoom{
+    transition: transform .2s;
+}
+
+.hover_zoom:hover{
+    transform: scale(1.1);
+}
+
+.hover_bg:hover{
+    border: 1px solid rgb(102, 219, 255);
+    transition: .3s;
+}
+
+
+       /* offer */
+
+.badge{
+    position:absolute;
+    font-size: 20px;
+    top: 0;
+    left: 56%;
+}
+
+       /* blog post */
+
+.blog_section{
+    margin-top: 100px;
+    margin-bottom: 150px;
+}
+
+.post-title:hover{
+    cursor: pointer;
+    color: rgb(102, 219, 255);
+    transition: .3s;
+}
+
+.more-post{
+    text-decoration: none;
+    width: 300px;
+    height: 70px;
+    color: white;
+    background-color: rgb(254, 78, 16);
+    border: 2px solid transparent;
+    border-radius: 60px 0 60px 0;
+    display: block;
+    margin: 0 auto;
+}
+
+
+.more-post:hover{
+    color: white;
+    background-color: rgb(13, 110, 253);
+    border: 2px solid rgb(102, 219, 255);
+    display: block;
+    margin: 0 auto;
+    transition: .4s;
+}
+
+
+
+
+        /* team section */
+
+.team_section{
+    margin: 100px 0;
+}
+
+.team_section .wb .member {
+	text-align: center;
+}
+
+.team_section .wb .member .pic {
+	border-radius: 4px;
+	overflow: hidden;
+}
+.member img {
+	transition: all ease-in-out 0.4s;
+}
+
+.member .member-info {
+	background: linear-gradient(360deg, rgb(255, 71, 5) 0%, rgb(255, 68, 0) 35%, rgba(255, 95, 36, 0.8) 100%);
+	padding: 15px 0;
+	border-radius: 4px;
+}
+
+.member h4 {
+    letter-spacing: 1px;
+	font-weight: 700;
+	font-size: 20px;
+	color: #fff;
+	margin-bottom: 7px;
+}
+
+.member span {
+	display: block;
+	font-size: 15px;
+	color: #fff;
+}
+
+.member .social {
+    margin-top: 5px;
+}
+
+.member .social a {
+    transition: color 0.3s;
+    color: #fff;
+}
+
+.member .social a:hover {
+    color: rgb(78, 21, 0);
+}
+
+.member .social i {
+    font-size: 16px;
+    margin: 0 2px;
+}
+
+.img-fluid {
+	max-width: 100%;
+	height: auto;
+}
+
+ .member .pic {
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.member img {
+    transition: all ease-in-out 0.4s;
+}
+
+.member:hover img {
+    transform: scale(1.1);
+}
+
+.team_margin{
+	margin-bottom: 20px;
+}
+
+
+
+
+        /* contact */
+
+.contact_section{
+    margin-top: 150px;
+    margin-bottom: 100px;
+}
+.name_grp{
+    width: 49%;
+    margin-top: 2px;
+}
+
+.nm-group{
+    display: flex;
+    justify-content: space-between;
+}
+.input_form{
+    padding: 3px 15px;
+    height: 3rem;
+    background-color: rgb(235, 235, 235);
+    outline: none;
+    border: 1px solid rgb(197, 197, 197);
+    border-radius: 2px;
+    margin-bottom: 20px;
+}
+
+.input_form:focus{
+    background-color:white;
+    border: 1px solid  rgb(254, 78, 16);
+    border-radius: 15px;
+    transition: .4s;
+}
+
+.w-full{
+    width: 100%;
+}
+
+.contact_form{
+    padding: 20px 5px;
+    position: relative;
+}
+
+.contact_head{
+    letter-spacing: 2px;
+    font-size: 60px;
+    color: rgb(254, 78, 16);
+}
+
+.your_mssg{
+    width: 100%;
+    height: 6rem;
+    padding: 15px 20px;
+    background-color: rgb(235, 235, 235);
+    outline: none;
+    border: 1px solid rgb(197, 197, 197);
+    border-radius: 2px;
+}
+
+.check_bttn{
+    display: inline-block;
+    margin-bottom: 30px;
+}
+
+.send_bttn{
+    float: right;
+    outline: none;
+    width: 40%;
+    height: 45px;
+    position: absolute;
+    bottom: 7%;
+    right: 1%;
+    background-color: rgb(254, 78, 16);
+    border: 3px solid transparent;
+    color: white;
+}
+
+.send_bttn:hover{
+    background-color: rgb(224, 60, 0);
+    color: white;
+    border: 3px solid rgb(254, 78, 16);
+    transition: .4s;
+}
+
+.contact-pic{
+    position: relative;
+}
+
+.contact_img{
+    width: 90%;
+    padding: 10px;
+    position: absolute;
+    top: 10%;
+    cursor: pointer;
+}
+
+.contact-pic img {
+    transition: all ease-in-out 0.4s;
+}
+
+.contact-pic:hover img {
+    transform: scale(1.1);
+}
+
+
+       /* footer */
+
+.footer_section{
+    width: 100%;
+    background-color: rgb(131, 35, 0);
+    margin-top: 100px;
+}
+
+.quick_link a,
+.service_link a{
+    text-decoration: none;
+    color: white;
+}
+
+.copyright-mark{
+    padding: 2px 5px;
+    background-color:rgb(254, 78, 16);
+}
+
+.footer_social i {
+    font-size: 15px;
+    margin: 0 2px;
+}
+
+.footer_social a:hover {
+    color: rgb(254, 78, 16);
+    border: 1px solid rgb(254, 78, 16);
+    transition: .4s;
+}
